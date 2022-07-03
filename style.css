@@ -849,6 +849,9 @@ footer span a:hover {
         height: 65px;
         align-items: center;
     }
+    .navbar .menu {
+        padding-top: 30px;
+    }
 }
 
 @media (max-width: 500px) {
