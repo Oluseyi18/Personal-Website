@@ -496,7 +496,7 @@ section .title::after {
 
 /* teams section styling */
 .education .title::after {
-    content: "My Journey So Far";
+    content: "";
 }
 .education span{
     color: #8b0000;
