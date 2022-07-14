@@ -252,7 +252,7 @@ section .title::after {
   }
   .socials .social-icons li {
     display: inline-block;
-    margin-bottom: 14px;
+    margin-top: 14px;
   }
   .social-icons a {
     font-size: 2rem;
@@ -710,7 +710,12 @@ footer span a:hover {
 
 
 /* responsive media query start */
-
+@media (min-width: 1224px) and (max-width: 2500px){
+    .socials .social-icons li {
+    display: inline-block;
+    margin-top: 28px;
+  }
+}
 @media (min-width: 1104px) and (max-width: 1223px){
     .about .about-content .left img {
         height: 407px;
@@ -889,4 +894,10 @@ footer span a:hover {
         font-size: 23px;
         line-height: 38px;
     }
+}
+@media (min-width: 250px) and (max-width: 499px){
+    .socials .social-icons li {
+    display: inline-block;
+    margin-top: 28px;
+  }
 }
